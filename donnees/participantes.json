@@ -1,0 +1,20 @@
+[
+ 
+    {
+"nom": "Osaka", 
+"prenom": "Naomi",
+"sexe": "F",
+"date" : "01/02/2000", 
+"certificat": "certif2.pdf",
+"categorie" : "Jeune"
+    },
+
+    {
+"nom": "Williams", 
+"prenom": "Serena",
+"sexe": "F",
+"date" : "01/02/2000", 
+"certificat": "certif2.pdf",
+"categorie" : "Adulte"
+    }
+]

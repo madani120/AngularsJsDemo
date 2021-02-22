@@ -1,0 +1,33 @@
+[
+ 
+    {
+        "jours" : "Vendredi", 
+        "nbH": "36 heures",
+        "nbfois" : "3",
+        "typeAbon" : "mensuelle"
+        
+            },
+    {
+"jours" : "Lundi et Mardi ", 
+"nbH": "13 heures",
+"nbfois" : "5",
+"typeAbon" : "Annuelle"
+
+    },
+
+    {
+        "jours" : "Vendredi,Mercredi et Samedi", 
+        "nbH": "40 heures",
+        "nbfois" : "3",
+        "typeAbon" : "mensuelle"
+        
+            },
+    {
+                "jours" : "Dimanche et Mardi ", 
+                "nbH": "20 heures",
+                "nbfois" : "4",
+                "typeAbon" : ""
+                
+     }
+    
+]

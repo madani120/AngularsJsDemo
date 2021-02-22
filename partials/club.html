@@ -1,0 +1,51 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h1 class="page-header">Club House</h1>
+            <ol class="breadcrumb">
+                <li><a href="#/">Acceuil</a>
+                </li>
+                <li class="active">Club House</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Courts et Cours</h2>
+         </div>
+         <a  href="#club/cours"> 
+            <img class="img-responsive" src="img/fleche.png" width="100"> 
+        </a>
+        </br>
+        </br>
+        <div class="col-lg-12">
+           <h2 class="page-header">Horaire des Matchs</h2>
+        </div>
+        <div ng-repeat="m in matchs">
+          <div class="col-sm-3">
+            <div class="panel panel-default text-center">
+                <div class="panel-heading">
+                    <strong>Match- {{m.lieu}}</strong>
+                </div>
+                <div class="panel-body">
+                    <h3 class="panel-title price">{{m.heure}}</h3>
+                    <h4>{{m.date}}</h4>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">{{m.joueur1}}</li>
+                    <li class="list-group-item">Vs</li>
+                    <li class="list-group-item">{{m.joueur2}}</li>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- /.container -->

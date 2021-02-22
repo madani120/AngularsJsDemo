@@ -1,0 +1,25 @@
+[
+ 
+    {
+"jours" : "Lundi et Mardi ", 
+"nbH": "8 heures",
+"nbfois" : "5",
+"typeAbon" : "Annuelle"
+
+    },
+
+    {
+        "jours" : "Vendredi", 
+        "nbH": "8 heures",
+        "nbfois" : "3",
+        "typeAbon" : "mensuelle"
+        
+            },
+    {
+                "jours" : "Dimanche et Mardi ", 
+                "nbH": "10 heures",
+                "nbfois" : "4",
+                "typeAbon" : ""
+                
+     }
+]

@@ -1,0 +1,73 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <h1 class="page-header">Club House
+                <small>courts et cours</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="#/">Acceuil</a>
+                </li>
+                <li><a href="#/club">Club House</a>
+                </li>
+                <li class="active">courts et cours</li>
+            </ol>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Cours adultes</h2>
+         </div>
+         <div ng-repeat=" c in coursA">
+            <div class="row">
+               <div class="col-lg-12">
+       
+                   <div class="panel-group" id="accordion">
+       
+                       <div class="panel panel-default">
+                           <div class="panel-heading">
+                               <h4 class="panel-title">
+                                     Chaque {{c.jours}}  | {{c.nbH}}  | {{c.nbfois}}  fois par semaine | Abonnement {{c.typeAbon}} | <a class="btn btn-primary" href="">s'insrcrire</a>
+                               </h4>
+                           </div>
+                          
+                       </div>    
+               </div>
+              </div>
+             </div>
+           </div>
+   
+
+
+        <div class="col-lg-12">
+           <h2 class="page-header">Cours Enfants</h2>
+        </div>
+        
+        <div ng-repeat=" c in coursE">
+         <div class="row">
+            <div class="col-lg-12">
+    
+                <div class="panel-group" id="accordion">
+    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                  Chaque {{c.jours}}  | {{c.nbH}}  | {{c.nbfois}}  fois par semaine | Abonnement {{c.typeAbon}} | <a class="btn btn-primary" href="">s'insrcrire</a>
+                            </h4>
+                        </div>
+                       
+                    </div>    
+            </div>
+           </div>
+          </div>
+        </div>
+
+       
+
+    </div>
+
+</div>
+<!-- /.container -->

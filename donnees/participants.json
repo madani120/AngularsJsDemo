@@ -1,0 +1,27 @@
+[	
+	{
+"nom": "Tommen", 
+"prenom": "Baratheon",
+"sexe": "M",
+"date" : "20/12/1999", 
+"certificat": "certif1.pdf",
+"categorie" : "Jeune"
+	},
+	{
+"nom": "Tchinda ", 
+"prenom": "Abbas",
+"sexe": "M",
+"date" : "10/02/1980", 
+"certificat": "med1.pdf",
+"categorie" : "Moyenne"
+	},
+	{
+"nom": "Kuete ", 
+"prenom": "madani",
+"sexe": "M",
+"date" : "02/05/200", 
+"certificat": "med2.pdf",
+"categorie" : "Adulte"
+	}
+   
+]
